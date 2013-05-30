@@ -1,0 +1,481 @@
+
+body
+{
+    margin: 0 auto;
+    padding: 0;
+    background: #979b8c;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.sheet
+{
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 5px;
+    width: 1100px;
+    height: 750px;
+    background: #666;
+}
+
+.sheet_body
+{
+    position: relative;
+    padding: 20px;
+    margin: 0px;
+}
+
+.header_body
+{
+    position: relative;
+    width: 1060px;
+    height: 150px;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #238376;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.logo_sena
+{
+    background-image: url(../Imagenes/robosenajorge.png);
+    width: 1060px;
+    height: 150px;
+    float: left;
+}
+
+.header_text
+{
+    display: block;
+    position: absolute;
+    left: 257px;
+    width: 661px;
+}
+
+.titulo_header
+{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 0;
+    margin-left: 100px;
+    margin-top: 0px;
+    color: #000;
+    position: absolute;
+    text-shadow: 0.1em 0.1em 0.02em gray;
+
+    
+}
+
+.nav
+{
+    position: relative;
+    width: 1060px;
+    height: 37px;
+    background: -moz-linear-gradient(top,#979b8c 10%, #ccc 100%);
+    z-index: 100;
+}
+
+.menu
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    border-right: 1px solid#555;
+}
+
+.menu li
+{
+    margin-top: 0px;
+    margin-right: 0px;
+    float: left;
+}
+
+.menu li a
+{
+    display: block;
+    width: 180px;
+    height: 25px;
+    padding: 6px 6px;
+    border-right:  2px solid #555;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+}
+
+.menu li a:hover
+{
+    color: white;
+    background-color: #666;
+}
+
+.menu li a:active
+{
+    color: white
+}
+
+.content
+{
+    position: relative;
+    width: 1060px;
+    height: 470px;
+    background-color: #238376;
+}
+
+.content_float2
+{
+	float: left;
+	text-align:center;
+	position:relative;
+	font-weight:bold;
+	margin-top:30px;
+	margin-left:20px;
+	border-radius:15px;
+	width:240px;
+	height:145px;
+	background: #e2e2e2;
+	box-shadow:0px 0px 15px #000;
+}
+
+.content_float3
+{
+	position:relative;
+        float:left;
+	margin-left:35px;
+	text-align:center;
+	font-weight:bold;
+	margin-top:14px;
+	border-radius:15px;
+	width:750px;
+	height:430px;
+	background:rgba(226,226,226,1);
+	overflow:auto;
+	box-shadow:0px 0px 15px #000;
+}
+
+.piedepagina
+{
+    position:relative;
+    overflow:hidden;
+    width:100%;
+    height:45px;
+    background:-moz-linear-gradient(top,#979b8c 10%,#ccc 100%);
+    border-radius:0px 0px 10px 10px;
+    font-weight:bold;
+}
+
+.texto_depie
+{
+    text-align:center;
+    font-size:10px;
+    margin-top:-15px;
+    color: gray;
+}
+
+
+.texto_depie a:link, .texto_depie a:visited, .texto_depie a:hover
+{
+    text-align:center;
+    font-size:7px;
+    margin-top:-4px;
+    color:#979b8c;
+}
+
+
+#footerfinal
+{
+    margin-top:17px; 
+    color:black; 
+    font-size:15px; 
+    line-height: 17px;
+}
+
+.content_float4
+{
+    position: relative;
+    float: left;
+    margin-left: 15px;
+    background: #f3f3f3;
+    margin-top: 15px;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    font-weight: bold;
+    width: 1030px;
+    height:440px;
+    overflow: auto;
+    box-shadow: 0px 0px 15px #000;
+}
+
+.segurita
+{
+    float:left;
+    margin-top: 60px;
+}
+
+.ambientalito
+{
+	float:right;
+	margin-top: 60px;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////// EFECTOS CSS LOGIN ////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////*/
+
+.login
+{
+    border-radius: 5px;
+    border: 2px solid #49928a;
+    padding-left: 15px;
+    padding-right: 25px;
+    color:#000;
+    font-weight: bold;
+    background-color: #fff;
+    font-family: 'Verdana';
+    font-size: 15px;
+    box-shadow: 0px 0px 5px #000;
+    width: 150px;
+    margin-top: 3px;
+}
+
+.botonIngresarLoguin
+{
+        background: #238376;	
+	font-family:sans-serif;
+	font-size: 15px;
+	border: 2px solid #e2e2e2;
+	border-radius: 5px;
+        color: #e2e2e2;
+        width: 100px;
+}
+
+
+.comboPerfil
+{
+    align:left;
+    padding-right:70px;
+    border-radius:8px;
+    border:2px solid #238376;
+    padding-left:10px;  /*espacio que hay entre el borde del imput y dato colocado*/
+    padding-right:15px; /*espacio que hay entre el borde del imput y dato colocado*/
+    color:#000;
+    font-weight:bold;
+    background-color:#fff;
+    font-family:Verdana;
+    font-size:15px;
+    box-shadow:0px 0px 5px #344366;
+    outline:none;
+    transition: all 0.25s ease-in-out;
+    width: 260px;
+    
+}
+
+.foto
+{
+	width:180px; 
+	height:180px;
+        aling:right;
+        margin-top: -125px;
+        
+}
+
+.foto .imagen
+{
+	width:140px; 
+	height:140px;
+	padding-bottom:30px;
+        padding-left: 300px;
+       
+}
+
+#imaperfil
+{
+    width: 230px;
+    height: auto;
+    
+}
+
+
+.titulodelamatriz
+{
+        display:block;
+	width:100%;
+	padding-top:4px;
+	padding-bottom:4px;
+	font-weight: bold;
+	text-decoration:none;
+	text-align:center;
+	font-size:15px;
+	color:white;
+	background-color:#111;
+	border-radius: 10px 10px 0px 0px;
+	
+}
+
+
+.cargalamatriz, .cargalamatriz tr, .cargalamatriz td
+{
+    font-family:sans-serif;
+    border:none;
+    font-size: 12px;
+    text-align: center;
+    color: #000;
+    background-color:Transparent;
+    padding: 4px;
+    border:0px;
+    vertical-align: middle;
+    text-align: center;	
+    border-collapse:collapse;
+}
+
+.cargalamatriz .even,.cargalamatriz  th
+{
+    font-family:sans-serif;
+    background:#238376;	
+    border:0px;
+    font-size: 12px;
+    vertical-align: top;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px;	
+    border-collapse:collapse;
+}
+
+.cargalamatriz  th
+{
+    font-family:sans-serif;
+    background:#238376;
+    color: #fff;
+    border:0px;
+    vertical-align: top;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 5px;		
+    padding-right: 5px;	
+    border-collapse:collapse;
+}
+
+.encabezado2
+{
+    display:block;
+	width:100%;
+	padding-top:4px;
+	padding-bottom:4px;
+	font-weight: bold;
+	text-decoration:none;
+	text-align:center;
+	font-size:15px;
+	color:white;
+	background-color:#111;
+	border-radius: 10px 10px 0px 0px;
+	
+}
+
+
+/********************************************************************************************
+****************************                       ****************************************** 
+****************************    PESTAÑAS JQUERY    ******************************************
+****************************                       ****************************************** 
+********************************************************************************************/
+
+ul.tabs, ul.tabs2 
+{
+	margin: 0;
+	padding: 0;
+	float: left;
+	border-left: 1px solid #001D7E;
+	border-radius: 10px 0px 0px 0px; 
+/*	-moz-border-radius: 10px 0px 0px 0px;
+	-webkit-border-radius: 10px 0px 0px 0px;
+	-o-border-radius: 10px 0px 0px 0px;*/
+	height: 22px;
+	width: 100%;
+}
+
+ul.tabs li, ul.tabs2 li
+{
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 21px;
+	line-height: 21px;
+	border: 1px solid #001D7E;
+	border-radius: 10px 10px 0px 0px; 
+/*	-moz-border-radius: 10px 10px 0px 0px; 
+	-webkit-border-radius: 10px 10px 0px 0px; 
+	-o-border-radius: 10px 10px 0px 0px; */
+	border-left: none;
+	margin-bottom: -1px;
+	overflow: hidden;
+	position: relative;
+	background: #566EBF;
+}
+
+ul.tabs li a, ul.tabs2 li a
+{
+	text-decoration: none;
+	color: #FFF;
+	display: block;
+	font-size: 14px;
+	padding: 0 10px;
+	border-radius: 10px 10px 0px 0px;
+/*	-moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	-o-border-radius: 10px 10px 0px 0px;*/
+	outline: none;
+}
+
+ul.tabs li a:hover, ul.tabs2 li a:hover
+{
+	background: #001D7E;
+}
+
+ul.tabs li.active, ul.tabs2 li.active 
+{
+	background: #001D7E;
+	border-bottom: none; 
+	border: 1px solid #566EBF;
+	border-radius: 10px 10px 0px 0px; 
+/*	-moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	-o-border-radius: 10px 10px 0px 0px;*/
+}
+
+.tab_container, .tab_container2 
+{
+	border: 1px solid #001D7E;
+	border-radius: 0px 10px 10px 10px;
+/*	-moz-border-radius: 0px 10px 10px 10px;
+	-webkit-border-radius: 0px 10px 10px 10px;
+	-o-border-radius: 0px 10px 10px 10px; */
+	overflow: auto;
+	clear: both;
+	float: left; width: 100%;
+	background: #fff;
+}
+.tab_content, .tab_content2 
+{
+	padding: 10px;
+	font-size: 14px;
+}
+
+
+select
+{
+	border-radius:8px;
+	border:2px solid #49928a;
+	padding-left:5px;
+	padding-right:5px;
+	color:#000;
+	font-weight:bold;
+	background-color:#fff;
+	font-family:sans-serif;
+	font-size:15px;
+	box-shadow:0px 0px 5px #000;
+        width:300px;
+}
